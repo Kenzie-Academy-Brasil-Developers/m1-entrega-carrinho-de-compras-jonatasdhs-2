@@ -1,0 +1,72 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Mukta', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 410px;
+    overflow-y: hidden;
+}
+
+ul:hover {
+    overflow-y: auto;
+    overflow: overlay;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px 40px;
+    font-size: 20px;
+}
+
+.div-price {
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 0px 40px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+button {
+    margin: 20px 0;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #20c997;
+    color: white;
+    border-color: transparent;
+    font-size: 20px;
+    transition: 0.1s;
+}
+
+button:active {
+    background-color: #148361;
+
+}
+
+button:hover {
+    border: solid 3px black;
+}
